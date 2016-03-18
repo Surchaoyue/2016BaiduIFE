@@ -1,0 +1,195 @@
+body {
+    font: 14px / 1.5 "Microsoft Yahei", sans-serif;
+    color: #fff;
+    background: url(../images/bg.png) no-repeat;
+    background-size: cover;
+}
+
+.menu nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid rgb(4, 23, 47);
+    -moz-border-bottom: 1px solid rgb(4, 23, 47);
+    -webkit-border-bottom: 1px solid rgb(8, 34, 69);
+}
+
+.menu nav ul {
+    float: right;
+}
+
+.menu nav ul li {
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.menu nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    line-height: 25px;
+    color: #bcbcbc;
+}
+.menu nav ul li a:hover{
+    color: #fff;
+    text-shadow: 1px 1px 6px #fff;
+    -webkit-text-shadow: 1px 1px 6px #fff;
+    -moz-text-shadow: 1px 1px 6px #fff;
+    -ms-text-shadow: 1px 1px 6px #fff;
+    -o-text-shadow: 1px 1px 6px #fff;
+}
+.menu nav ul li a:hover:after{
+    left: 0;
+    width: 100%;
+    transition: width 0.35s;
+    -webkit-transition: width 0.35s;
+    -moz-transition: width 0.35s;
+    -ms-transition: width 0.35s;
+    -o-transition: width 0.35s;
+    border-bottom:1px solid rgba(255,255,255,1);
+}
+.menu nav ul li a:after{
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid rgba(255,208,11,1);
+    left: 100%;
+    width:0;
+    bottom: -5px;
+    transition: width 0.35s, left 0.35s;
+}
+.see img
+{
+    display: block;
+    margin: 0 auto;
+}
+.see
+{
+    padding-top: 7%;
+}
+/*中间开始*/
+.our{
+    width: 80%;
+    padding-top:100px;
+    margin: 0% auto;
+    position: relative;
+    height: 400px;
+/*    background: yellow;*/
+}
+/*头像开始*/
+.photo {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    position:absolute;
+    border-radius: 61px;
+    box-shadow: 0 0 10px rgba(255,208,11,0.8);
+    background: url(../images/1.jpg);
+    background-size: cover;
+    animation: animations 1.5s ease infinite;
+    -moz-animation: animations 1.5s ease infinite;
+    -webkit-animation: animations 1.5s ease infinite;
+    -ms-animation: animations 1.5s ease infinite;
+    -o-animation: animations 1.5s ease infinite;
+}
+.photo1 {
+    top: 70%;
+    left: 26%;
+    background: url(../images/1.jpg);
+}
+.photo2 {
+    top: 70%;
+    left: 36%;
+    background: url(../images/1.jpg);
+}
+.photo3 {
+    top: 70%;
+    left: 46%;
+    background: url(../images/1.jpg);
+}
+.photo4 {
+    top: 70%;
+    left: 56%;
+    background: url(../images/1.jpg);
+}
+.photo5 {
+    top: 70%;
+    left: 66%;
+    background: url(../images/1.jpg);
+}
+@-webkit-keyframes animations{
+	0%{box-shadow:0 0 10px rgba(255,208,11,.8);}
+	50%{box-shadow:0 0 10px rgba(255,208,11,.3);}
+	100%{box-shadow:0 0 10px rgba(255,208,11,.8);}
+}
+@-moz-keyframes animations{
+	0%{box-shadow:0 0 10px rgba(255,208,11,.8);}
+	50%{box-shadow:0 0 10px rgba(255,208,11,.3);}
+	100%{box-shadow:0 0 10p10x rgba(255,208,11,.8);}
+}
+@-ms-keyframes animations{
+	0%{box-shadow:0 0 10px rgba(255,208,11,.8);}
+	50%{box-shadow:0 0 10px rgba(255,208,11,.3);}
+	100%{box-shadow:0 0 10p10x rgba(255,208,11,.8);}
+}
+@keyframes animations{
+	0%{box-shadow:0 0 10px rgba(255,208,11,.8);}
+	50%{box-shadow:0 0 10px rgba(255,208,11,.3);}
+	100%{box-shadow:0 0 10px rgba(255,208,11,.8);}
+}
+.photo:hover{
+    transform: rotate(360deg) scale(1.3);
+    -webkit-transform: rotate(360deg) scale(1.3);
+    -moz-transform: rotate(360deg) scale(1.3);
+    -ms-transform: rotate(360deg) scale(1.3);
+    -o-transform: rotate(360deg) scale(1.3);
+}
+.button{
+    display: block;
+    text-decoration: none;
+/*    position: relative;  */
+}
+/*提示语开始暂时有bug*/
+.tip{
+    position: absolute;
+    padding: 0 14px;
+    height: 35px;
+    line-height: 35px;
+    background: yellow;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 auto;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    top: 220px;
+    left: 26%;
+    opacity: 1;
+}
+.tip em{
+    font-style: normal;
+}
+.tip span {
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    border: 7px solid transparent;
+    border-top-color: yellow;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    margin-left: -3px;
+}
+/*响应式*/
+@media (max-width:1000px){
+    .our{
+        width: 100%;
+    }
+}
+
