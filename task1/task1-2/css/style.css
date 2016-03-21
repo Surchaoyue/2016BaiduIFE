@@ -6,6 +6,10 @@ body {
     background-color: #DEDEDE;
 /*    background-color:grey;*/
 }
+* {
+    margin: 0;
+    padding: 0;
+}
 /*header开始*/
 header {
     height:70px;
@@ -13,15 +17,19 @@ header {
 }
 header img {
     padding-top: 10px;
-    background-size:contain;
-/*    width: 100px;*/
+    padding-left:10px;
+    float: left;
 }
 header nav {
-/*    background-color: black;*/
-    margin-top: -60px;
+    overflow: auto;
+    zoom:1;
+    line-height: 70px;
+/*    margin-top: -45px;*/
+}
+header nav ul{
+    float: right;
 }
 header nav ul li{
-    float: right;
     display: inline-block;
 }
 header nav ul li a {
@@ -61,6 +69,9 @@ figure img {
 }
 figure figcaption {
     padding:5px;
+}
+section article menu {
+    margin-left: 30px;
 }
 /*表格*/
 section article table {

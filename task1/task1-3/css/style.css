@@ -4,6 +4,10 @@
     background-color: #eee; 
     position: relative;  
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 section {
     margin: 20px;
     background-color: white;
@@ -23,9 +27,10 @@ section {
    vertical-align: top;
 }
 .us {
-    position: absolute;
-    left: 220px;
-    right: 140px;
+/*    position: absolute;*/
+/*    float: left;*/
+    margin-left: 240px;
+    margin-right: 160px;
 }
 .us article {
     padding: 20px;

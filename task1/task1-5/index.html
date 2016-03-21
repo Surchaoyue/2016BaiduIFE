@@ -9,7 +9,7 @@
 
 <body>
     <header>
-        <img src="images/B-logo.jpg" alt="logo">
+        <img src="images/logo.png" alt="logo">
         <nav>
             <ul>
                 <li><a href="#">导航链接一</a>
@@ -24,7 +24,7 @@
         </nav>
     </header>
     <div class="container">
-        <section class="left clearfix">
+        <section class="left">
             <article>
                 <h2>怀揣梦想</h2>
                 <h3>看见未来</h3>
@@ -148,61 +148,59 @@
                 </table>
             </article>
         </section>
-    <aside class="clearfix">
-        <div class="title">
-            <h3>这是侧栏标题</h3>
-        </div>
+        <aside>
+            <div class="title">
+                <h3>这是侧栏标题</h3>
+            </div>
+            <form name="input" action="">
+                <div class="info">
+                    <label for="email">请输入邮箱地址</label>
+                    <input type="text" id="email" placeholder="email" />
+                    </br><span>邮箱地址按要求格式输入</span>
+                    </br>
+                    <label for="">请输入密码</label>
+                    <input type="password" name="password">
+                    </br>
+                    <label for="">请重复输入密码</label>
+                    <input type="password" s name="password">
+                    </br>
+                    <span>密码为6到16位的英文字母</span>
+                    </br>
+                    <label>性别</label>
 
-        <form name="input" action="">
-            <div class="info">
-                <label for="email">请输入邮箱地址</label>
-                <input type="text" id="email" placeholder="email" />
-                </br><span>邮箱地址按要求格式输入</span>
-                </br>
-                <label for="">请输入密码</label>
-                <input type="password" name="password">
-                </br>
-                <label for="">请重复输入密码</label>
-                <input type="password" s name="password">
-                </br>
-                <span>密码为6到16位的英文字母</span>
-                </br>
-                <label>性别</label>
-<!--                <p class="left">-->
                     <input type="radio" name="sex" checked="checked">男
                     <input type="radio" name="sex">女 &nbsp;
-<!--                </p>-->
-                </br>
-                <label for="city">城市</label>
-                <select id="city">
-                    <option value="北京">北京</option>
-                    <option value="上海">上海</option>
-                    <option value="天津">天津</option>
-                    <option value="武汉">武汉</option>
-                    <option value="合肥" selected="selected">合肥</option>
-                </select>
-                &nbsp;</br>
-                <label for="">爱好</label>
-<!--                <p class="left">-->
+
+                    </br>
+                    <label for="city">城市</label>
+                    <select id="city">
+                        <option value="北京">北京</option>
+                        <option value="上海">上海</option>
+                        <option value="天津">天津</option>
+                        <option value="武汉">武汉</option>
+                        <option value="合肥" selected="selected">合肥</option>
+                    </select>
+                    &nbsp;</br>
+                    <label for="">爱好</label>
+
                     <input type="checkbox" name="exercise">运动
                     <input type="checkbox" name="art"> 艺术
                     <input type="checkbox" name="science">科学
-<!--                </p>-->
-                </br>
-                <label for="intro" class="top">个人描述</label>
-                <textarea id="intro">SEE THE FUTURE</textarea>
-            </div>
-            &nbsp;</br>
-            <input type="submit" class="btn" value="确认提交">
-        </form>
-    </aside>
-         <div class="clearfix">
-        <footer>
+
+                    </br>
+                    <label for="intro" class="top">个人描述</label>
+                    <textarea id="intro">SEE THE FUTURE</textarea>
+                </div>
+                &nbsp;</br>
+                <input type="submit" class="btn" value="确认提交">
+            </form>
+        </aside>
+    </div>
+
+    <footer>
         <p>版权所有&copy;see the future</p>
-        </footer>
-    </div>
-    </div>
-    
+    </footer>
+
 </body>
 
 </html>
