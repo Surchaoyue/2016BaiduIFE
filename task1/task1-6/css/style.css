@@ -1,0 +1,387 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ccc;
+}
+.container {
+    width: 980px;
+    height: 1386px;
+    background: white;
+    margin: 0 auto;
+/*    padding: 0px 44px;*/
+}
+
+header {
+    width: 892px;
+    height: 61px;
+    margin: 0 auto;
+    border-bottom: 2px solid #938e8c;
+    position: relative;
+}
+
+header p {
+    display: block;
+    width: 110px;
+    height: 61px;
+    background-color: #d45d5c;
+    font: 12px "黑体";
+    position: relative;
+}
+
+header p span {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 4px;
+}
+
+header span {
+    font-size: 12px;
+    color: #d45d5c;
+    font-family: "黑体";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+/*第一段开始*/
+.part1 {
+    width: 892px;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+.part1 article {
+    display: inline-block;
+}
+.part1 .pic1 {
+    width: 641px;
+    height: 301px;
+    background: url(../images/pic1.png) no-repeat center;
+    margin-right: 40px;
+}
+.pic1 .green {
+    width: 191px;
+    height: 301px;
+    background-color: #428c59;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+.pic1 .red {
+    width: 191px;
+    height: 301px;
+    background-color: #cc7680;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    float: right;
+}
+.part1 .right1 {
+    width: 203px;
+    height: 301px;
+    border-top: 2px solid #cc8091;
+    overflow: hidden;
+    position: relative;
+}
+.right1 .about {
+    font: 24px "Microsoft YaHei";
+    text-decoration: underline;
+    font-variant: small-caps;
+}
+.right1 .f1 {
+    font: 12px/10px "楷体";
+    color:#676767;  
+}
+.f700 {
+    font: italic 116px "Microsoft YaHei";
+    font-weight: 500;
+    color:#75b86b ;
+    margin-left: -17px;
+}
+.all {
+/*    margin-top: -14px;*/
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+}
+.f32 {
+    font: 55px "Microsoft YaHei";
+    color: #cc8091;
+    display: inline-block;
+}
+.fcss {
+    display: inline-block;
+}
+.fcss .fcss1{
+    font: 21px "Microsoft YaHei";
+    color: #cc8091;
+/*    margin-bottom: -40px;*/
+    position: absolute;
+    top: 25px;
+}
+.fcss .fcss2 {
+    font: 12px "Microsoft YaHei";
+    color: #bcbbba;
+/*    margin-top: -30px;*/
+}
+/*第一段结束*/
+/*第二段开始*/
+.part2 {
+    width: 892px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font: 12px/16px "宋体";
+    color:#767777;
+    overflow: hidden;
+    zoom: 1;
+}
+.what{
+    width: 220px;
+    float: left;
+    margin-right: 30px;
+}
+.when {
+    width: 200px;
+    float: left;
+    margin-right:30px;     
+}
+.how {
+    width: 150px;
+    float: left;
+}
+.part2 h2 {
+    font: bold 16px "Microsoft YaHei";
+    margin-bottom: 10px;
+}
+.what h2 a{
+    color:#418c59;
+}
+.when h2 a{
+    color:#d2994f;
+}
+.how h2 a{
+    color: #cc7680;
+}
+.how>p {
+    line-height: 25px;
+}
+.how .what {
+    font: 12px/16px "Microsoft YaHei";
+    color: #231815 ;
+    padding-top: 20px;
+    padding-left: 10px;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+.how .what span {
+    font-style: italic;
+    color: #cd4a48;
+}
+/*第二段结束*/
+/*第三段开始*/
+.part3 {
+    width: 892px;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1; 
+}
+.part3 .left {
+    width: 415px;
+}
+.part3 .right {
+    width: 458px;
+    float: right;
+    margin-bottom: 35px;
+}
+/*第三段右侧的图开始*/
+.right-pic {
+    background: url(../images/pic2.png) no-repeat;
+    width: 458px;
+    height: 275px;
+    position: relative;
+}
+.pic-font {
+    height: 61px;
+    width:458px;
+    position: absolute;
+    bottom: 0;
+}
+.right-pic .grey {
+    height: 61px;
+    width:458px;
+    background: #040000;
+    opacity: 0.3;
+    filter: Alpha(opacity=30);/*IE8及更早的浏览器*/
+}
+.right-pic .right-font {
+    height: 44px;
+    border-left: 3px solid #73b16a;
+    position: absolute;
+    bottom: 8.5px;
+    left: 40px;
+}
+.right-pic .font1 {
+    font: 26px "Microsoft YaHei";
+    color: #fff;
+    display: inline-block;
+    line-height: 44px;
+    padding-left: 10px;
+}
+.right-pic .font2 {
+    font: italic 12px "Microsoft YaHei";
+/*    letter-spacing: 1.4em;*/
+    color: #72b16a;
+}
+/*第三段右侧的图结束*/
+/*第三段右侧下方开始*/
+.right .bottom {
+    margin-top: 19px;
+    width: 459px;
+    height: 318px;
+    background-color:#eeedd6;
+}
+.bottom .first {
+    padding: 40px 10px 10px 20px;
+    text-align: justify;
+    
+}
+.bottom .first p {
+    position: relative;
+    padding-left: 40px;
+    font: 16px "宋体";
+    padding-bottom: 20px;
+    color: #5a5b5b;
+    
+}
+.bottom .first .triangle {
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-color: #11456c;
+    position: absolute;
+    left: 20px;
+    top: 2px
+}
+.bottom i {
+    font-size: 12px;
+}
+
+.bottom .second {
+    width: 459px;
+    height: 150px;
+    position: absolute;
+}
+.bottom .second .red {
+    width: 260px;
+    height: 153px;
+    background-color: #d45d5c;
+    display: inline-block;
+    position: relative;
+}
+.bottom .second .o {
+    font: 110px "Microsoft YaHei";
+    color: #fff;
+    line-height: 153px;
+    padding-left: 10px;
+    width: 70px;
+}
+.bottom .second .icon {
+    border: 2px solid #fff;
+    display: inline-block;
+    height: 86px;
+    margin-bottom: -3px;
+}
+.bottom .second .red i {
+    font-family:"黑体";
+    font-size:  21px ;
+    line-height: 24px;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    top:40px;
+    left: 90px;
+}
+.bottom .second .small {
+    font: 12px "黑体";
+    color:#fff;
+    position: absolute;
+    left: 90px;
+    top: 90px; 
+}
+.bottom .second .text {
+
+    font: italic 14px/16px "黑体";
+    color: #5a5b5b;
+    position: absolute;
+    top:10px;
+    left: 270px;
+    right: 40px;
+    text-align: justify;
+}
+.bottom .second .text .big1 {
+   font: 72px "黑体";
+    color: #d45d5c;
+    position: absolute;
+    top: -18px;
+    left: -38px;  
+}
+.bottom .second .text .big2 {
+   font: 72px "黑体";
+    color: #d45d5c;
+    position: absolute;
+    top: 90px;
+    right: -40px;  
+}
+.bottom .second .text p {
+   text-indent: 2em;
+}
+
+/*第三段右侧下方结束*/
+/*第三段左侧开始*/
+.left h1 {
+    height: 180px;
+    width: 415px;
+    border-bottom: 2px solid #11456b;
+    font: bold 41px "黑体";
+    color:#11456b;
+    display: inline-block;
+}
+.left h1 i {
+    font-size:72px;
+    font-weight: bold;
+    color: #f5e327;
+}
+.left h1 p {
+    font: bold 33px "Microsoft YaHei";
+}
+.left .font-pic {
+    padding-top: 20px;
+    font: 12px/16px "宋体";
+    color: #767777;
+    text-align: justify;
+}
+.left .font-pic span{
+    font: 70px "Microsoft YaHei";
+    color: #f5e327;
+    float: left;
+    margin-top:-12px;
+} 
+
+.left .font-pic img {
+    float: right;
+    padding: 15px 0 15px 15px;
+}
+/*第三段左侧结束*/
+
+/*第三段结束*/
+footer {
+    width: 892px;
+    margin: 0 auto;
+    border-top: 1px solid #938e8c;
+}
+footer p {
+    font: 12px "黑体";
+    color: #d45d5c;
+    float: right;
+}
