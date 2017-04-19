@@ -5,4 +5,4 @@ http://Surcy.github.io/2016BaiduIFE/ourteam
 
 
 任务列表
-http://ife.baidu.com/task/all
+https://github.com/see-the-future/task-stage1-practice
