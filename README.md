@@ -1,7 +1,7 @@
 2016百度前端技术学院春季班
 
 团队介绍页面
-http://Surchaoyue.github.io/2016BaiduIFE/ourteam
+http://Surcy.github.io/2016BaiduIFE/ourteam
 
 
 任务列表
